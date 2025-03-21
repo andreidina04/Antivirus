@@ -1,6 +1,6 @@
 import hashlib
 import os
-folder_path = "C://Users/andre/Documents/fisiere_test"
+folder_path = "C://"
 if not os.path.exists(folder_path) :
     os.makedirs(folder_path)
     print(f"Directorul {folder_path} a fost creat.")
